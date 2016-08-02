@@ -49,11 +49,11 @@
             // tb_url
             // 
             this.tb_url.Location = new System.Drawing.Point(75, 5);
-            this.tb_url.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_url.Margin = new System.Windows.Forms.Padding(2);
             this.tb_url.Name = "tb_url";
             this.tb_url.Size = new System.Drawing.Size(327, 21);
             this.tb_url.TabIndex = 1;
-            this.tb_url.Text = "http://localhost:1337/v1.0/hub/1/node/66/photos";
+            this.tb_url.Text = "http://localhost:8080/api/upload/mf.jpg";
             // 
             // label2
             // 
@@ -68,7 +68,7 @@
             // tb_key
             // 
             this.tb_key.Location = new System.Drawing.Point(75, 33);
-            this.tb_key.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_key.Margin = new System.Windows.Forms.Padding(2);
             this.tb_key.Name = "tb_key";
             this.tb_key.Size = new System.Drawing.Size(327, 21);
             this.tb_key.TabIndex = 3;
@@ -77,7 +77,7 @@
             // bt_post
             // 
             this.bt_post.Location = new System.Drawing.Point(75, 58);
-            this.bt_post.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_post.Margin = new System.Windows.Forms.Padding(2);
             this.bt_post.Name = "bt_post";
             this.bt_post.Size = new System.Drawing.Size(326, 18);
             this.bt_post.TabIndex = 4;
@@ -87,10 +87,13 @@
             // 
             // lb_msg
             // 
+            this.lb_msg.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lb_msg.FormattingEnabled = true;
             this.lb_msg.ItemHeight = 12;
             this.lb_msg.Location = new System.Drawing.Point(75, 81);
-            this.lb_msg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lb_msg.Margin = new System.Windows.Forms.Padding(2);
             this.lb_msg.Name = "lb_msg";
             this.lb_msg.Size = new System.Drawing.Size(327, 232);
             this.lb_msg.TabIndex = 5;
@@ -106,7 +109,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tb_url);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "酷痞图像传感器上传工具 http://icoolpy.com";
             this.ResumeLayout(false);
